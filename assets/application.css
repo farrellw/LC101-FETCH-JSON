@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#submissionForm {
+    padding: 5px;
+    margin-top: 3em;
+}
+
+
+fieldset {
+    padding: 1em;
+}
