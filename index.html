@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>LC101 HTTP Forms Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/application.css"
+    />
+  </head>
+  <body>
+    <form
+      id="submissionForm"
+      method="POST"
+      action="https://rocky-fortress-42375.herokuapp.com/student"
+    >
+      <fieldset>
+        <label for="first_name">First Name</label>
+        <input id="first_name" name="firstName" />
+        <label for="last_name">Last Name</label>
+        <input id="last_name" name="lastName" />
+      </fieldset>
+      <fieldset>
+        <label for="favorite_food">Favorite Food</label>
+        <input id="favorite_food" name="favoriteFood" />
+        <label for="favorite_animal">Favorite Animal</label>
+        <input id="favorite_animal" name="favoriteAnimal" />
+      </fieldset>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- 1. Link a JavaScript file via a script tag -->
+<!-- 2. Prevent default on form submission. -->
+<!-- 3. Print out form details -->
+<!-- 3.5. git add and commit -->
+
+<!-- 4. Form validation. Every field is required. -->
+<!-- 5. Form validation. Favorite Food can't be "pickles". -->
+<!-- 6. Send form details to URL provided -->
+<!-- 6.5 git add and commit -->
